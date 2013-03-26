@@ -1,0 +1,7 @@
+name = Basethree Layouts 
+description = Additional layouts for the Panels module.
+package = Panels
+php = 5.2
+core = 7.x
+dependencies[] = panels
+files[] = basethree_layouts.module
