@@ -2,10 +2,10 @@
 
 $plugin = array(
   'title' => t('APC Home'),
-  'category' => t('Base Three Layouts'),
+  'category' => t('Bootstrap Panel Layouts'),
   'icon' => 'apc_home.png',
   'theme' => 'apc_home',
-  'admin css' => '../basethree_layouts_panels_admin.css',
+  'admin css' => '../bootstrap_panel_layouts_panels_admin.css',
   'regions' => array(
     'top_left' => t('Top Left'),
     'top_right' => t('Top Right'),

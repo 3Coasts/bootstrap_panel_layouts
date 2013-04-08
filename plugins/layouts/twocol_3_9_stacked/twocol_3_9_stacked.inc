@@ -2,10 +2,10 @@
 
 $plugin = array(
   'title' => t('Two column 3 9 stacked'),
-  'category' => t('Base Three Layouts'),
+  'category' => t('Bootstrap Panel Layouts'),
   'icon' => 'twocol_3_9_stacked.png',
   'theme' => 'twocol_3_9_stacked',
-  'admin css' => '../basethree_layouts_panels_admin.css',
+  'admin css' => '../bootstrap_panel_layouts_panels_admin.css',
   'regions' => array(
     'header' => t('header'),
     'left' => t('left'),
