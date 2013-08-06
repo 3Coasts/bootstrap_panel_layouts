@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Three Columns Stacked'),
   'category' => t('Bootstrap Panel Layouts'),
-  'icon' => 'threecol_4_4_4_stacked.png',
+  'icon' => '../../layout_icons/threecol_4_4_4_stacked.png',
   'theme' => 'threecol_stacked',
   'admin css' => '../bootstrap_panel_layouts_panels_admin.css',
   'regions' => array(

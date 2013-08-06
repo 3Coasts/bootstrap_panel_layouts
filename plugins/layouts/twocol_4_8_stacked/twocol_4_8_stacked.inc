@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Two column 4 8 stacked'),
   'category' => t('Bootstrap Panel Layouts'),
-  'icon' => 'twocol_4_8_stacked.png',
+  'icon' => '../../layout_icons/twocol_4_8_stacked.png',
   'theme' => 'twocol_4_8_stacked',
   'admin css' => '../bootstrap_panel_layouts_panels_admin.css',
   'regions' => array(
