@@ -1,0 +1,220 @@
+@media only screen and (max-width: 767px) {
+  .twocol-5-4-3-stacked, .threecol-stacked, .twocol-3-9-stacked, .twocol-4-8-stacked, .twocol-5-7-stacked, .twocol-6-6-stacked, .twocol-7-5-stacked, .twocol-8-4-stacked, .twocol-9-3-stacked {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    .twocol-5-4-3-stacked:before, .threecol-stacked:before, .twocol-3-9-stacked:before, .twocol-4-8-stacked:before, .twocol-5-7-stacked:before, .twocol-6-6-stacked:before, .twocol-7-5-stacked:before, .twocol-8-4-stacked:before, .twocol-9-3-stacked:before, .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      display: table;
+      content: "";
+      line-height: 0; }
+    .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      clear: both; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .twocol-5-4-3-stacked .left, .twocol-5-4-3-stacked .middle, .twocol-5-4-3-stacked .right, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-3-9-stacked .left, .twocol-3-9-stacked .right, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-4-8-stacked .left, .twocol-4-8-stacked .right, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-5-7-stacked .left, .twocol-5-7-stacked .right, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-6-6-stacked .left, .twocol-6-6-stacked .right, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-7-5-stacked .left, .twocol-7-5-stacked .right, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer, .twocol-8-4-stacked .left, .twocol-8-4-stacked .right, .twocol-9-3-stacked .left, .twocol-9-3-stacked .right {
+    min-height: 1px;
+    margin-right: 20px;
+    float: left;
+    display: block;
+    border-collapse: collapse; }
+
+  .twocol-5-4-3-stacked .right, .twocol-3-9-stacked .left, .twocol-9-3-stacked .right {
+    width: 100%; }
+
+  .twocol-5-4-3-stacked .middle, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-4-8-stacked .left, .twocol-8-4-stacked .right {
+    width: 100%; }
+
+  .twocol-5-4-3-stacked .left, .twocol-5-7-stacked .left, .twocol-7-5-stacked .right {
+    width: 100%; }
+
+  .twocol-6-6-stacked .left, .twocol-6-6-stacked .right {
+    width: 100%; }
+
+  .twocol-5-7-stacked .right, .twocol-7-5-stacked .left {
+    width: 100%; }
+
+  .twocol-4-8-stacked .right, .twocol-8-4-stacked .left {
+    width: 100%; }
+
+  .twocol-3-9-stacked .right, .twocol-9-3-stacked .left {
+    width: 100%; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer {
+    width: 100%; } }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .twocol-5-4-3-stacked, .threecol-stacked, .twocol-3-9-stacked, .twocol-4-8-stacked, .twocol-5-7-stacked, .twocol-6-6-stacked, .twocol-7-5-stacked, .twocol-8-4-stacked, .twocol-9-3-stacked {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+    .twocol-5-4-3-stacked:before, .threecol-stacked:before, .twocol-3-9-stacked:before, .twocol-4-8-stacked:before, .twocol-5-7-stacked:before, .twocol-6-6-stacked:before, .twocol-7-5-stacked:before, .twocol-8-4-stacked:before, .twocol-9-3-stacked:before, .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      display: table;
+      content: "";
+      line-height: 0; }
+    .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      clear: both; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .twocol-5-4-3-stacked .left, .twocol-5-4-3-stacked .middle, .twocol-5-4-3-stacked .right, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-3-9-stacked .left, .twocol-3-9-stacked .right, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-4-8-stacked .left, .twocol-4-8-stacked .right, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-5-7-stacked .left, .twocol-5-7-stacked .right, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-6-6-stacked .left, .twocol-6-6-stacked .right, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-7-5-stacked .left, .twocol-7-5-stacked .right, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer, .twocol-8-4-stacked .left, .twocol-8-4-stacked .right, .twocol-9-3-stacked .left, .twocol-9-3-stacked .right {
+    min-height: 1px;
+    margin-right: 20px;
+    float: left;
+    display: block;
+    border-collapse: collapse; }
+
+  .twocol-5-4-3-stacked .right, .twocol-3-9-stacked .left, .twocol-9-3-stacked .right {
+    /* columns3 */
+    width: 160px; }
+
+  .twocol-5-4-3-stacked .middle, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-4-8-stacked .left, .twocol-8-4-stacked .right {
+    /* columns4 */
+    width: 220px; }
+
+  .twocol-5-4-3-stacked .left, .twocol-5-7-stacked .left, .twocol-7-5-stacked .right {
+    /* columns5 */
+    width: 280px; }
+
+  .twocol-6-6-stacked .left, .twocol-6-6-stacked .right {
+    /* columns6 */
+    width: 340px; }
+
+  .twocol-5-7-stacked .right, .twocol-7-5-stacked .left {
+    /* columns7 */
+    width: 400px; }
+
+  .twocol-4-8-stacked .right, .twocol-8-4-stacked .left {
+    /* columns8 */
+    width: 460px; }
+
+  .twocol-3-9-stacked .right, .twocol-9-3-stacked .left {
+    /* columns9 */
+    width: 520px; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer {
+    /* columns12 */
+    width: 700px; } }
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+  .twocol-5-4-3-stacked, .threecol-stacked, .twocol-3-9-stacked, .twocol-4-8-stacked, .twocol-5-7-stacked, .twocol-6-6-stacked, .twocol-7-5-stacked, .twocol-8-4-stacked, .twocol-9-3-stacked {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto; }
+    .twocol-5-4-3-stacked:before, .threecol-stacked:before, .twocol-3-9-stacked:before, .twocol-4-8-stacked:before, .twocol-5-7-stacked:before, .twocol-6-6-stacked:before, .twocol-7-5-stacked:before, .twocol-8-4-stacked:before, .twocol-9-3-stacked:before, .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      display: table;
+      content: "";
+      line-height: 0; }
+    .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      clear: both; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .twocol-5-4-3-stacked .left, .twocol-5-4-3-stacked .middle, .twocol-5-4-3-stacked .right, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-3-9-stacked .left, .twocol-3-9-stacked .right, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-4-8-stacked .left, .twocol-4-8-stacked .right, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-5-7-stacked .left, .twocol-5-7-stacked .right, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-6-6-stacked .left, .twocol-6-6-stacked .right, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-7-5-stacked .left, .twocol-7-5-stacked .right, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer, .twocol-8-4-stacked .left, .twocol-8-4-stacked .right, .twocol-9-3-stacked .left, .twocol-9-3-stacked .right {
+    min-height: 1px;
+    margin-right: 20px;
+    float: left;
+    display: block;
+    border-collapse: collapse; }
+
+  .twocol-5-4-3-stacked .right, .twocol-3-9-stacked .left, .twocol-9-3-stacked .right {
+    /* columns3 */
+    width: 220px; }
+
+  .twocol-5-4-3-stacked .middle, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-4-8-stacked .left, .twocol-8-4-stacked .right {
+    /* columns4 */
+    width: 300px; }
+
+  .twocol-5-4-3-stacked .left, .twocol-5-7-stacked .left, .twocol-7-5-stacked .right {
+    /* columns5 */
+    width: 380px; }
+
+  .twocol-6-6-stacked .left, .twocol-6-6-stacked .right {
+    /* columns6 */
+    width: 460px; }
+
+  .twocol-5-7-stacked .right, .twocol-7-5-stacked .left {
+    /* columns7 */
+    width: 540px; }
+
+  .twocol-4-8-stacked .right, .twocol-8-4-stacked .left {
+    /* columns8 */
+    width: 620px; }
+
+  .twocol-3-9-stacked .right, .twocol-9-3-stacked .left {
+    /* columns9 */
+    width: 700px; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer {
+    /* columns12 */
+    width: 940px; } }
+@media only screen and (min-width: 1200px) {
+  .twocol-5-4-3-stacked, .threecol-stacked, .twocol-3-9-stacked, .twocol-4-8-stacked, .twocol-5-7-stacked, .twocol-6-6-stacked, .twocol-7-5-stacked, .twocol-8-4-stacked, .twocol-9-3-stacked {
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto; }
+    .twocol-5-4-3-stacked:before, .threecol-stacked:before, .twocol-3-9-stacked:before, .twocol-4-8-stacked:before, .twocol-5-7-stacked:before, .twocol-6-6-stacked:before, .twocol-7-5-stacked:before, .twocol-8-4-stacked:before, .twocol-9-3-stacked:before, .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      display: table;
+      content: "";
+      line-height: 0; }
+    .twocol-5-4-3-stacked:after, .threecol-stacked:after, .twocol-3-9-stacked:after, .twocol-4-8-stacked:after, .twocol-5-7-stacked:after, .twocol-6-6-stacked:after, .twocol-7-5-stacked:after, .twocol-8-4-stacked:after, .twocol-9-3-stacked:after {
+      clear: both; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .twocol-5-4-3-stacked .left, .twocol-5-4-3-stacked .middle, .twocol-5-4-3-stacked .right, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-3-9-stacked .left, .twocol-3-9-stacked .right, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-4-8-stacked .left, .twocol-4-8-stacked .right, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-5-7-stacked .left, .twocol-5-7-stacked .right, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-6-6-stacked .left, .twocol-6-6-stacked .right, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-7-5-stacked .left, .twocol-7-5-stacked .right, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer, .twocol-8-4-stacked .left, .twocol-8-4-stacked .right, .twocol-9-3-stacked .left, .twocol-9-3-stacked .right {
+    min-height: 1px;
+    margin-right: 20px;
+    float: left;
+    display: block;
+    border-collapse: collapse; }
+
+  .twocol-5-4-3-stacked .right, .twocol-3-9-stacked .left, .twocol-9-3-stacked .right {
+    /* columns3 */
+    width: 250px; }
+
+  .twocol-5-4-3-stacked .middle, .threecol-stacked .left, .threecol-stacked .middle, .threecol-stacked .right, .twocol-4-8-stacked .left, .twocol-8-4-stacked .right {
+    /* columns4 */
+    width: 340px; }
+
+  .twocol-5-4-3-stacked .left, .twocol-5-7-stacked .left, .twocol-7-5-stacked .right {
+    /* columns5 */
+    width: 430px; }
+
+  .twocol-6-6-stacked .left, .twocol-6-6-stacked .right {
+    /* columns6 */
+    width: 520px; }
+
+  .twocol-5-7-stacked .right, .twocol-7-5-stacked .left {
+    /* columns7 */
+    width: 610px; }
+
+  .twocol-4-8-stacked .right, .twocol-8-4-stacked .left {
+    /* columns8 */
+    width: 700px; }
+
+  .twocol-3-9-stacked .right, .twocol-9-3-stacked .left {
+    /* columns9 */
+    width: 790px; }
+
+  .twocol-5-4-3-stacked .header, .twocol-5-4-3-stacked .footer, .threecol-stacked .header, .threecol-stacked .footer, .threecol-stacked .top, .twocol-3-9-stacked .header, .twocol-3-9-stacked .footer, .twocol-4-8-stacked .header, .twocol-4-8-stacked .footer, .twocol-5-7-stacked .header, .twocol-5-7-stacked .footer, .twocol-6-6-stacked .header, .twocol-6-6-stacked .footer, .twocol-7-5-stacked .header, .twocol-7-5-stacked .footer, .twocol-8-4-stacked .header, .twocol-8-4-stacked .footer {
+    /* columns12 */
+    width: 1060px; } }
+.twocol-5-4-3-stacked .right {
+  margin-right: 0; }
+
+.threecol-stacked .right {
+  margin-right: 0; }
+
+.twocol-3-9-stacked .right {
+  margin-right: 0; }
+
+.twocol-4-8-stacked .header, .twocol-4-8-stacked .footer {
+  margin-right: 0; }
+.twocol-4-8-stacked .right {
+  margin-right: 0; }
+
+.twocol-5-7-stacked .right {
+  margin-right: 0; }
+
+.twocol-6-6-stacked .right {
+  margin-right: 0; }
+
+.twocol-7-5-stacked .right {
+  margin-right: 0; }
+
+.twocol-8-4-stacked .right {
+  margin-right: 0; }
+
+.twocol-9-3-stacked .right {
+  margin-right: 0; }

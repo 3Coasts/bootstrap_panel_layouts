@@ -1,0 +1,103 @@
+
+=alpha
+  margin-left: 0
+  
+=omega($n: 1)
+  @if $n == 1
+    margin-right: 0
+  @else
+    &:nth-child(#{$n})
+      margin-right: 0
+
+=clearfix
+  &:before, &:after
+    display: table
+    content: ""
+    line-height: 0
+  &:after
+    clear: both
+
+=container
+  @extend %container
+  
+=grid($colWidth: 60px, $gutterWidth: 20px, $columns: 12)
+
+  %container
+    @if $colWidth == 0
+      width: 90%
+    @else
+      width: ($colWidth * $columns) + ($gutterWidth * ($columns - 1))
+    margin-left: auto
+    margin-right: auto
+    +clearfix
+
+  %columns
+    min-height: 1px // prevent collapsing columns
+    margin-right: $gutterWidth
+    float: left
+    display: block
+    border-collapse: collapse
+
+
+  @for $i from 1 to ($columns + 1)
+    %columns#{$i}
+      @if $colWidth > 0
+        /* columns#{$i} */
+        width: ($colWidth * $i) + ($gutterWidth * ($i - 1))
+      @else
+        width: 100%
+
+=span($x, $omega: 0)
+  @extend %columns
+  @extend %columns#{$x}
+  @if $omega != 0
+    +omega($omega)
+
+=width($x)
+  min-height: 1px // prevent collapsing columns
+  float: left
+  display: block
+  border-collapse: collapse
+  width: (100% / 12) * $x
+
+%row
+  clear: left
+  display: inline-block
+
+=row
+  @extend %row
+
+=respond-to($media)
+  @if $media == mobile
+    @media only screen and (max-width: 767px)
+      @content
+  @else if $media == tablet
+    @media only screen and (min-width: 768px) and (max-width: 979px)
+      @content
+  @else if $media == gte-tablet
+    @media only screen and (min-width: 768px)
+      @content  
+  @else if $media == lte-tablet
+    @media only screen and (max-width: 979px)
+      @content  
+  @else if $media == laptop
+    @media only screen and (min-width: 980px) and (max-width: 1199px)
+      @content
+  @else if $media == lte-laptop
+    @media only screen and (max-width: 1199px)
+      @content  
+  @else if $media == gte-laptop
+    @media only screen and (min-width: 980px)
+      @content
+  @else if $media == desktop
+    @media only screen and (min-width: 1200px)
+      @content
+
++respond-to(mobile)
+  +grid(0)
++respond-to(tablet)
+  +grid(40px,20px,12)
++respond-to(laptop)
+  +grid(60px,20px,12)
++respond-to(desktop)
+  +grid(70px,20px,12)

@@ -5,7 +5,7 @@ $plugin = array(
   'category' => t('Bootstrap Panel Layouts'),
   'icon' => '../../layout_icons/onecol_stacked.png',
   'theme' => 'onecol',
-  'admin css' => '../bootstrap_panel_layouts_panels_admin.css',
+  'admin css' => '../styles.css',
   'regions' => array(
     'center' => t('Center'),
   ),

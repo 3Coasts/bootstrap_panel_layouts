@@ -6,3 +6,9 @@ function bootstrap_panel_layouts_ctools_plugin_directory($owner, $plugin_type) {
   }
 }
 
+/**
+ * Implements hook_init().
+ */
+function bootstrap_panel_layouts_init() {
+  drupal_add_css(drupal_get_path('module', 'bootstrap_panel_layouts') . '/plugins/layouts/styles.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));
+}
