@@ -7,6 +7,8 @@ $plugin = array(
   'theme' => 'onecolumn',
   'admin css' => '../admin-styles.css',
   'regions' => array(
+    'header' => t('Header'),
     'center' => t('Center'),
+    'footer' => t('Footer'),
   ),
 );
